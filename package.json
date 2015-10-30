@@ -5,11 +5,11 @@
 , "keywords"        : ["websocket", "eventsource"]
 , "license"         : "MIT"
 
-, "version"         : "0.10.0"
+, "version"         : "0.7.3"
 , "engines"         : {"node": ">=0.4.0"}
 , "main"            : "./lib/faye/websocket"
-, "dependencies"    : {"websocket-driver": ">=0.5.1"}
-, "devDependencies" : {"jstest": "", "pace": "", "permessage-deflate": ""}
+, "dependencies"    : {"websocket-driver": ">=0.3.6"}
+, "devDependencies" : {"jstest": "", "pace": ""}
 
 , "scripts"         : {"test": "jstest spec/runner.js"}
 
